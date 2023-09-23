@@ -1,13 +1,13 @@
 require_relative './lib/api_generator/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = 'gemfather'
+  spec.name          = 'gemfather-stable'
   spec.version       = ApiGenerator::VERSION
-  spec.authors       = ['Domclick Ruby Team']
+  spec.authors       = ['Domclick Ruby Team and Daniil Kachur']
 
   spec.summary       = 'Gemfather: API client generator'
   spec.description   = 'Library that helps to generate high-quality API clients'
-  spec.homepage      = 'https://github.com/domclick/gemfather'
+  spec.homepage      = 'https://github.com/DDKatch/gemfather/tree/stable'
   spec.license       = 'MIT'
   spec.required_ruby_version = '>= 2.7'
 
