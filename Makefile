@@ -10,12 +10,12 @@ lint:
 	bin/rubocop
 
 cleanup:
-	rm -f gemfather-*.gem
+	rm -f gemfather-stable-*.gem
 
 build:
-	gem build gemfather.gemspec
+	gem build gemfather-stable.gemspec
 
 publish:
-	gem push gemfather-*.gem
+	gem push gemfather-stable-*.gem
 
 deploy: build publish cleanup
