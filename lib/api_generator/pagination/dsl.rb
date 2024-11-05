@@ -3,6 +3,7 @@ module ApiGenerator::Pagination
     STRATEGIES = {
       limit_offset: LimitOffsetRelation,
       page: PageRelation,
+      cursor: CursorRelation,
     }.freeze
 
     # rubocop:disable Metrics/MethodLength
